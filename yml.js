@@ -7,7 +7,7 @@ module.exports = function (fileName) {
             resolve(yaml.parse(readFileSync(fileName, 'utf-8')));
         } catch (err) {
             resolve({});
-            console.log("ERRO! Desbugar: " + err);
+            console.log("ERRO! Debug: " + err);
         }
     })
 }
