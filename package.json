@@ -1,0 +1,14 @@
+{
+  "name": "custom-discord_rpc",
+  "version": "1.0.0-BETA",
+  "description": "Custom Discord RPC",
+  "main": "index.js",
+  "repository": "https://github.com/devduskk",
+  "author": "devduskk",
+  "license": "MIT",
+  "dependencies": {
+    "discord-rpc": "^3.2.0",
+    "fs": "^0.0.1-security",
+    "yaml": "^1.10.0"
+  }
+}
